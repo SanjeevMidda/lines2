@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  flex-direction: column;
+
+  * {
+    margin: -40px;
+  }
+}
+
+.lines {
+  width: 100px;
+  height: 100px;
+  transform: skew(70deg);
+}
+
+h3 {
+  font-size: 25px;
+}
